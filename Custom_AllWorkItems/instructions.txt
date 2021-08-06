@@ -1,0 +1,7 @@
+v2018.12.20_1
+1. Execute the script "Test_CustomAllWorkItemsPage.sql". This only serves as a test to bring back results. Ensure that no SQL errors occur when running this script.
+1. Execute the script Create_CustomAllWorkItemsPage.sql. This will insert a new datasource, ViewPanel, and Navigation Node into ServiceManagement.
+2. In the Portal, a new navigation node will appear called "Custom All Work". Make it visible.
+3. Copy Dashboard_AllWorkItems.js into CustomSpace.
+4. Navigate to the page, something like http://scsm2016/View/a8045e60-8db2-4f14-80f5-93bb4da011e9 . 
+5. A grid will appear on the page showing your work items.
